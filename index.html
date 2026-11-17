@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farmers — 1–4 player co-op farming chaos | Pixel Studio</title>
+  <meta name="description" content="Farmers is a 1–4 player online co-op physics farming game. Harvest, stack a very wobbly trailer, sell at the market, fight off hay-stealing raccoons and beat the Raccoon King. By Pixel Studio.">
+  <meta name="theme-color" content="#2B1A0E">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Farmers — four friends, one farm, one very wobbly trailer">
+  <meta property="og:description" content="A 1–4 player co-op physics farming game by Pixel Studio.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/brand/icon-192.png">
+  <link rel="preload" href="assets/fonts/Nunito-Black.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Farmers home">
+      <img src="assets/img/brand/wordmark.png" alt="Farmers" width="184" height="34">
+      <span>Pixel Studio</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#trailer">Trailer</a>
+      <a href="#game">The game</a>
+      <a href="#jobs">Jobs</a>
+      <a href="#fair">Fair</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#faq">FAQ</a>
+      <a href="#studio">Studio</a>
+      <a href="press.html">Press kit</a>
+    </nav>
+    <!-- STEAM: when the store page is live, set href to it and change the label to "Wishlist on Steam". -->
+    <a class="btn wish" href="#studio" data-steam>Coming to Steam</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top" style="padding:0">
+    <img class="poster" src="assets/img/screens/stacked-trailer.jpg" alt="">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/img/screens/stacked-trailer.jpg" aria-hidden="true">
+      <source src="assets/video/hero-loop.mp4" type="video/mp4">
+    </video>
+    <div class="hero-inner">
+      <span class="badge">Coming soon to PC</span>
+      <h1 style="margin:0"><img class="logo" src="assets/img/brand/logo.png" alt="Farmers — 1–4 player co-op chaos" width="1158" height="348"></h1>
+      <p class="tagline">Four friends. One farm. One very wobbly trailer.<br>Harvest it, stack it, haul it, sell it — and try not to drop it all on the way.</p>
+      <div class="ctas">
+        <a class="btn red" href="#trailer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          Watch the trailer
+        </a>
+        <a class="btn" href="#studio" data-steam>Coming to Steam</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="wrap">
+      <ul>
+        <li><b>1–4</b><span>players, online co-op</span></li>
+        <li><b>4</b><span>farm jobs to rotate</span></li>
+        <li><b>3</b><span>fairground games</span></li>
+        <li><b>10</b><span>farm maps</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TRAILER -->
+  <section class="band-ink" id="trailer" style="margin-top:-60px;padding-top:150px">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker">Trailer</span>
+        <h2 class="outlined">Zero supervision</h2>
+        <p>Bales in the air, raccoons on the run, a goose with your tractor keys. Fifty-three seconds of what a normal day on the farm looks like.</p>
+      </div>
+      <div class="trailer-frame">
+        <video controls preload="none" poster="assets/img/screens/bales-flying.jpg">
+          <source src="assets/video/farmers-trailer.mp4" type="video/mp4">
+        </video>
+      </div>
+      <p class="trailer-note">Video won't play? <a href="assets/video/farmers-trailer.mp4" download>Download the trailer (MP4, 1080p, 0:53)</a></p>
+    </div>
+  </section>
+
+  <div class="fence" aria-hidden="true"></div>
+
+  <!-- THE GAME -->
+  <section id="game">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">The game</span>
+        <h2>A farming game where everything has physics</h2>
+        <p>Every bale, cob, pumpkin, pig and farmer is a real physics object. There's no quota and no game over — just a shared wallet, a long list of upgrades, and a crew that keeps getting in each other's way.</p>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <img src="assets/img/thumbs/round-bale.jpg" alt="A farmer rolling a giant round bale across the yard" loading="lazy" width="640" height="360">
+          <div><h3>Harvest</h3><p>Square bales for one, round bales for two. Cut corn, dig potatoes, grow giant pumpkins.</p></div>
+        </article>
+        <article class="step">
+          <img src="assets/img/thumbs/stacked-trailer.jpg" alt="A tractor towing a trailer stacked high with hay bales" loading="lazy" width="640" height="360">
+          <div><h3>Stack &amp; haul</h3><p>Pile it high on the flatbed, hop on the tractor and pray at every bump.</p></div>
+        </article>
+        <article class="step">
+          <img src="assets/img/thumbs/sunset-haul.jpg" alt="The tractor bringing a full load home at sunset" loading="lazy" width="640" height="360">
+          <div><h3>Sell</h3><p>Drop it in the Market Stall pen. Rescued loot pays double; flood the market and prices sag.</p></div>
+        </article>
+        <article class="step">
+          <img src="assets/img/thumbs/raccoon-king.jpg" alt="A farmer pelting the Raccoon King with a hay bale" loading="lazy" width="640" height="360">
+          <div><h3>Upgrade &amp; fight</h3><p>Spend the kitty in the catalogue, then ring the dinner bell for the Raccoon King.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="band-paper">
+    <div class="wrap">
+      <div class="feature">
+        <div class="shot">
+          <img class="main" src="assets/img/screens/bales-flying.jpg" alt="The trailer hits a bump and hay bales fly in every direction" loading="lazy" width="1920" height="1080">
+          <img class="sticker" src="assets/img/items/MegaTrailer.png" alt="" loading="lazy">
+        </div>
+        <div>
+          <span class="kicker">Physics chaos</span>
+          <h2>One very wobbly trailer</h2>
+          <p class="sub">Your whole day's work rides on a hitched flatbed that bounces, sways and tips. Drive like it.</p>
+          <ul>
+            <li>Lift round bales together, throw square bales for bullseye trick shots.</li>
+            <li>Ride on the load while a friend drives — and fly off it at the first bump.</li>
+            <li>Get flattened by a runaway bale and ragdoll across the yard. Your crew can carry you… or throw you onto the trailer.</li>
+            <li>Tractors, combines, a potato harvester and the Mega Trailer, each with engines that wear, leak oil and break down.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="shot">
+          <img class="main" src="assets/img/screens/raccoon-king.jpg" alt="A farmer throws a bale at the Raccoon King in his shopping cart" loading="lazy" width="1920" height="1080">
+          <img class="sticker" src="assets/img/items/EggSlingshot.png" alt="" loading="lazy">
+        </div>
+        <div>
+          <span class="kicker">Thieves</span>
+          <h2>Hay bandits &amp; the Raccoon King</h2>
+          <p class="sub">The wildlife wants your harvest more than you do.</p>
+          <ul>
+            <li>Raccoons sneak out of their burrows and team up to carry off round bales. Shove them, bonk them, or run them over.</li>
+            <li>Kernel Crows dive for the cobs in your arms. Gus the Goose steals the tractor's key.</li>
+            <li>Ring the dinner bell and the Raccoon King rolls up in a shopping cart, ropes your trailer and tows it home. Pelt him with bales, then tackle him off his throne.</li>
+            <li>Fight back with the Egg Slingshot, a Scarecrow, Zapper Gates and a squad of Guard Geese.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="shot">
+          <img class="main" src="assets/img/screens/crew-porch.jpg" alt="Three farmers in mismatched outfits cheering on the farmhouse porch" loading="lazy" width="1920" height="1080">
+          <img class="sticker" src="assets/img/items/RubberChicken.png" alt="" loading="lazy">
+        </div>
+        <div>
+          <span class="kicker">The crew</span>
+          <h2>Better with friends. Worse for the farm.</h2>
+          <p class="sub">Host a farm and share a join code. Solo works too — it's the same game, just quieter.</p>
+          <ul>
+            <li>End-of-day awards like Best Navigator, Gatekeeper and Spud Stud.</li>
+            <li>Emote wheel, pings, feats and a porch wardrobe full of daft outfits.</li>
+            <li>Whack sleeping crewmates out of bed with the Rubber Chicken.</li>
+            <li>Weeks, weekly goals and a Farm Level that keeps going as long as you do.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOBS -->
+  <section class="band-ink" id="jobs">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">The job board</span>
+        <h2 class="outlined">Every morning, a new job</h2>
+        <p>Flip the job board on the porch to pick tomorrow's work. Each one plays differently, and each one goes wrong differently.</p>
+      </div>
+      <div class="jobs">
+        <article class="job">
+          <img src="assets/img/thumbs/special-delivery.jpg" alt="A farmer throwing a crewmate onto the hay trailer" loading="lazy" width="640" height="360">
+          <div><span class="tag">Hay</span><h3>Bale Out!</h3><p>Square and round bales across the fields. Stack the trailer, mind the bump.</p></div>
+        </article>
+        <article class="job">
+          <img src="assets/img/thumbs/combine.jpg" alt="The red combine harvester cutting through tall corn" loading="lazy" width="640" height="360">
+          <div><span class="tag">Corn</span><h3>Maize Craze</h3><p>Drive the combine through 2.5 m corn. Catch the cobs, swat the crows, kick the jammed engine.</p></div>
+        </article>
+        <article class="job">
+          <img src="assets/img/thumbs/greased-pig.jpg" alt="Farmers trying to catch a greased pig" loading="lazy" width="640" height="360">
+          <div><span class="tag">Pigs</span><h3>Hog Wild</h3><p>Six greased pigs loose on the farm. Two to carry one. The slop bucket helps. The mud doesn't.</p></div>
+        </article>
+        <article class="job">
+          <img class="art" src="assets/img/items/PotatoHarvester.png" alt="The Potato Harvester" loading="lazy">
+          <div><span class="tag">Potatoes</span><h3>Spud Rush</h3><p>Hitch the Potato Harvester, dig the rows, then tip a whole avalanche of spuds into the sell pen.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAIR -->
+  <section id="fair">
+    <div class="wrap">
+      <div class="feature flip">
+        <div class="shot">
+          <img class="main" src="assets/img/screens/bale-tower.jpg" alt="A tower of hay bales collapsing at the fairground" loading="lazy" width="1920" height="1080">
+          <img class="sticker" src="assets/img/items/HayCannon.png" alt="" loading="lazy">
+        </div>
+        <div>
+          <span class="kicker">The fairground</span>
+          <h2>Show off for spare change</h2>
+          <p class="sub">Skill and chaos games next to the market. No gambling — just bragging rights and a few extra Bucks.</p>
+          <ul>
+            <li><b>Greased Pig</b> — let it loose, chase it round the pen, get it in the sty before the clock runs out.</li>
+            <li><b>Hay Bale Bowling</b> — ten pins, one bale, no farmers on the lane.</li>
+            <li><b>Bale Tower</b> — stack twelve bales as high as you dare and hold it for five seconds.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOGUE -->
+  <section class="band-paper" id="catalogue">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker">The catalogue</span>
+        <h2>Spend the kitty</h2>
+        <p>One shared wallet, a whole catalogue of machines, livestock, land and questionable tools.</p>
+      </div>
+      <div class="catalogue">
+        <div class="item"><img src="assets/img/items/TurboTractor.png" alt="" loading="lazy"><b>Turbo Tractor</b><span>+30% speed, +100% bounce</span></div>
+        <div class="item"><img src="assets/img/items/BigCombine.png" alt="" loading="lazy"><b>Big Green Combine</b><span>Eats a field in half the time</span></div>
+        <div class="item"><img src="assets/img/items/PotatoHarvester.png" alt="" loading="lazy"><b>Potato Harvester</b><span>Unlocks Spud Rush</span></div>
+        <div class="item"><img src="assets/img/items/MegaTrailer.png" alt="" loading="lazy"><b>Mega Trailer</b><span>More bales, more to lose on corners</span></div>
+        <div class="item"><img src="assets/img/items/BaleSpike.png" alt="" loading="lazy"><b>Bale Spike</b><span>Lift round bales solo</span></div>
+        <div class="item"><img src="assets/img/items/HayCannon.png" alt="" loading="lazy"><b>Hay Cannon</b><span>Knock thieves flat from afar</span></div>
+        <div class="item"><img src="assets/img/items/Lasso.png" alt="" loading="lazy"><b>Lasso</b><span>Rope pigs, raccoons and friends</span></div>
+        <div class="item"><img src="assets/img/items/EggSlingshot.png" alt="" loading="lazy"><b>Egg Slingshot</b><span>Knock raccoons flat</span></div>
+        <div class="item"><img src="assets/img/items/GuardGoose.png" alt="" loading="lazy"><b>Guard Goose</b><span>Honks at raccoons. Bites.</span></div>
+        <div class="item"><img src="assets/img/items/Scarecrow.png" alt="" loading="lazy"><b>Scarecrow</b><span>Keeps crows and thieves off</span></div>
+        <div class="item"><img src="assets/img/items/RubberChicken.png" alt="" loading="lazy"><b>Rubber Chicken</b><span>One squeaky whack</span></div>
+        <div class="item"><img src="assets/img/items/Cows.png" alt="" loading="lazy"><b>Cows</b><span>Milk to sell</span></div>
+        <div class="item"><img src="assets/img/items/Sheep.png" alt="" loading="lazy"><b>Sheep</b><span>Shear them once a day</span></div>
+        <div class="item"><img src="assets/img/items/Hens.png" alt="" loading="lazy"><b>Hens</b><span>Eggs in hidden nests</span></div>
+        <div class="item"><img src="assets/img/items/NightLights.png" alt="" loading="lazy"><b>Night Lights</b><span>Half as many thieves at night</span></div>
+        <div class="item"><img src="assets/img/items/Coffee.png" alt="" loading="lazy"><b>Coffee</b><span>Sprint 20% longer</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOTS -->
+  <section class="band-ink" id="screenshots">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Screenshots</span>
+        <h2 class="outlined">Life on the farm</h2>
+        <p>All captured in-game. Click any shot to see it full size.</p>
+      </div>
+      <div class="gallery" id="gallery">
+        <a class="wide" href="assets/img/screens/bales-flying.jpg"><img src="assets/img/screens/bales-flying.jpg" alt="Bales flying off the trailer at a bump" loading="lazy"><figcaption>Mind the bump</figcaption></a>
+        <a href="assets/img/screens/farm-overview.jpg"><img src="assets/img/thumbs/farm-overview.jpg" alt="The farm from above at dawn" loading="lazy"><figcaption>Dawn on the farm</figcaption></a>
+        <a href="assets/img/screens/tractor.jpg"><img src="assets/img/thumbs/tractor.jpg" alt="The green tractor" loading="lazy"><figcaption>Fire her up</figcaption></a>
+        <a href="assets/img/screens/round-bale.jpg"><img src="assets/img/thumbs/round-bale.jpg" alt="A farmer rolling a round bale" loading="lazy"><figcaption>Round bales</figcaption></a>
+        <a href="assets/img/screens/stacked-trailer.jpg"><img src="assets/img/thumbs/stacked-trailer.jpg" alt="The trailer stacked with bales" loading="lazy"><figcaption>Full load</figcaption></a>
+        <a href="assets/img/screens/special-delivery.jpg"><img src="assets/img/thumbs/special-delivery.jpg" alt="A farmer thrown onto the trailer" loading="lazy"><figcaption>Special delivery</figcaption></a>
+        <a href="assets/img/screens/combine.jpg"><img src="assets/img/thumbs/combine.jpg" alt="The combine in the corn" loading="lazy"><figcaption>Maize Craze</figcaption></a>
+        <a href="assets/img/screens/raccoon-chase.jpg"><img src="assets/img/thumbs/raccoon-chase.jpg" alt="Farmers chasing a raccoon thief" loading="lazy"><figcaption>Stop, thief!</figcaption></a>
+        <a href="assets/img/screens/gus-the-goose.jpg"><img src="assets/img/thumbs/gus-the-goose.jpg" alt="Gus the Goose by the tractor" loading="lazy"><figcaption>Gus has the keys</figcaption></a>
+        <a href="assets/img/screens/mud.jpg"><img src="assets/img/thumbs/mud.jpg" alt="A tractor stuck in the mud" loading="lazy"><figcaption>Stuck again</figcaption></a>
+        <a href="assets/img/screens/bale-bowling.jpg"><img src="assets/img/thumbs/bale-bowling.jpg" alt="Hay bale bowling at the fair" loading="lazy"><figcaption>Hay Bale Bowling</figcaption></a>
+        <a href="assets/img/screens/greased-pig.jpg"><img src="assets/img/thumbs/greased-pig.jpg" alt="The greased pig game" loading="lazy"><figcaption>Greased Pig</figcaption></a>
+        <a href="assets/img/screens/bale-tower.jpg"><img src="assets/img/thumbs/bale-tower.jpg" alt="The bale tower falling" loading="lazy"><figcaption>Bale Tower</figcaption></a>
+        <a href="assets/img/screens/raccoon-king.jpg"><img src="assets/img/thumbs/raccoon-king.jpg" alt="The Raccoon King hit by a bale" loading="lazy"><figcaption>The Raccoon King</figcaption></a>
+        <a href="assets/img/screens/king-down.jpg"><img src="assets/img/thumbs/king-down.jpg" alt="The crew surrounding the King's cart" loading="lazy"><figcaption>Long live the crew</figcaption></a>
+        <a href="assets/img/screens/sunset-haul.jpg"><img src="assets/img/thumbs/sunset-haul.jpg" alt="Hauling a load home at sunset" loading="lazy"><figcaption>Home by sunset</figcaption></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker">FAQ</span>
+        <h2>Questions, answered</h2>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>What kind of game is Farmers?</summary>
+          <p>A co-op physics comedy about running a farm with your friends. You harvest crops, stack them on a wobbly trailer, sell them at the market, buy upgrades and defend your harvest from raccoons, crows and one very determined goose.</p>
+        </details>
+        <details>
+          <summary>How many players?</summary>
+          <p>One to four. One player hosts the farm and friends join with a short code. Steam friend invites are on the way. Solo is the same game with nobody else joining — no sign-in and no internet needed.</p>
+        </details>
+        <details>
+          <summary>Can I play it alone?</summary>
+          <p>Yes. Some things are easier with friends (round bales and pigs take two to carry) but there are upgrades like the Bale Spike and the Lasso that let a lone farmer manage.</p>
+        </details>
+        <details>
+          <summary>Is there a game over or a time limit?</summary>
+          <p>No. There's no quota and you can't lose the farm. Days pass, weeks bring goals and a Farm Level, and the Raccoon King waits until you ring the bell.</p>
+        </details>
+        <details>
+          <summary>Which platforms?</summary>
+          <p>Windows PC, on Steam. A demo is planned before release.</p>
+        </details>
+        <details>
+          <summary>When does it come out?</summary>
+          <p>To be announced. Keep an eye on this page — the Steam page and demo are coming soon.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDIO -->
+  <section class="band-ink" id="studio">
+    <div class="wrap studio">
+      <div>
+        <span class="kicker">Studio</span>
+        <h2 class="outlined">Pixel Studio</h2>
+        <p>A small independent studio. We make cosy games with more going on under the hood than the art lets on.</p>
+        <p>Farmers is our second game: a co-op physics sandbox about friendship, hay, and how quickly both fall apart.</p>
+        <div class="other-game">
+          <div class="snow" aria-hidden="true">❄</div>
+          <div>
+            <b>Also from Pixel Studio</b><br>
+            <a href="https://santaslegacy.ro/" rel="noopener">Santa's Legacy</a> — a cosy Christmas idle game about running the North Pole and knowing when to hand it over. Free demo on Steam.
+          </div>
+        </div>
+      </div>
+      <table class="facts">
+        <tbody>
+          <tr><th>Title</th><td>Farmers</td></tr>
+          <tr><th>Developer</th><td>Pixel Studio</td></tr>
+          <tr><th>Publisher</th><td>Pixel Studio (self-published)</td></tr>
+          <tr><th>Genre</th><td>Co-op physics farming, party</td></tr>
+          <tr><th>Players</th><td>1–4, online co-op</td></tr>
+          <tr><th>Platform</th><td>Windows (Steam)</td></tr>
+          <tr><th>Engine</th><td>Unity</td></tr>
+          <tr><th>Release</th><td>To be announced</td></tr>
+          <tr><th>Press</th><td><a href="press.html" style="color:var(--barn)">Press kit</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing">
+    <div class="wrap">
+      <h2 class="outlined">Grab a pitchfork.<br>Bring three friends.</h2>
+      <p style="font-size:1.2rem;font-weight:900">Farmers is coming to Steam.</p>
+      <div class="ctas">
+        <a class="btn" href="#studio" data-steam>Coming to Steam</a>
+        <a class="btn cream" href="press.html">Press kit</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <img src="assets/img/brand/wordmark.png" alt="Farmers" width="160" style="margin-bottom:12px">
+        <p>A 1–4 player co-op physics farming game about friendship, hay, and how quickly both fall apart.</p>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+          <li><a href="#trailer">Trailer</a></li>
+          <li><a href="#game">The game</a></li>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#studio">About Pixel Studio</a></li>
+          <li><a href="press.html">Press kit</a></li>
+          <li><a href="https://santaslegacy.ro/" rel="noopener">Santa's Legacy</a></li>
+          <li><a href="mailto:mironc30@gmail.com">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">© 2026 Pixel Studio. Farmers and Pixel Studio are trademarks of Pixel Studio. Steam is a trademark of Valve Corporation.</div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+  <button class="close" aria-label="Close">×</button>
+  <button class="prev" aria-label="Previous">‹</button>
+  <figure style="margin:0"><img alt=""><p></p></figure>
+  <button class="next" aria-label="Next">›</button>
+</div>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
